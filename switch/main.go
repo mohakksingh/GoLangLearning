@@ -29,7 +29,7 @@ func main() {
 
 	temperature :=25
 	switch {
-	case temptemperature< 0:
+	case temperature< 0:
 		fmt.Println("Freezong")
 	case temperature >=0 && temperature<10:
 		fmt.Println("Cold")
