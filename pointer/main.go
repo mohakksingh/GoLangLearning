@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("Data contains through pointer:", *ptr)
 
 	var pointer *int //default pointer ==nil
-	if  pointer ==nil {
+	if  pointer == nil {
 		fmt.Println("Pointer is not assigned")
 	}
 
